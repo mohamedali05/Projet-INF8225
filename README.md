@@ -1,7 +1,8 @@
 # INF8225 — Projet : RAG pour Question Answering (HyDE vs RAG Fusion)
 Dans ce projet, nous explorons et comparons différentes méthodes de **Retrieval-Augmented Generation (RAG)** appliquées au **Question Answering**. Plus précisément, nous étudions les approches **HyDE** (Hypothetical Document Embeddings) et **RAG Fusion** (avec et sans reranker), afin d’évaluer leurs performances sur des jeux de données spécifiques.
 
-Pour comparer nos résultats, nous utilisons le jeu de données **rag-mini-bioasq**, disponible sur Hugging Face via le lien suivant : [rag-mini-bioasq](https://huggingface.co/datasets/rag-datasets/rag-mini-bioasq).
+Pour comparer nos résultats, nous utilisons le jeu de données **rag-mini-bioasq**, disponible sur Hugging Face via le lien suivant : [rag-mini-bioasq](https://huggingface.co/datasets/rag-datasets/rag-mini-bioasq).  
+Un jeu de données additionnel a également été utilisé, disponible sur Hugging Face via le lien suivant : [rag-mini-wikipedia](https://huggingface.co/datasets/rag-datasets/rag-mini-wikipedia).
 
 ```text
 Structure du dépôt
@@ -17,3 +18,4 @@ Structure du dépôt
 ├── INF8225_Projet_RAG_Generator.ipynb         # Fichier template pour la génération de réponses (Modèle Mistral)
 ```
 
+Notre modèle encoder finetuné est disponible au lien suivant : [Finetuned Encoder](https://drive.google.com/drive/folders/107O4vixgAvtvzjp0mxTquW-ax3wwS7s0?usp=drive_link)
